@@ -109,10 +109,20 @@ fruits.push("apple", "berry", "pineapple")  //add additional items to the array
 fruits.unshift("watermelon")  //adds an element from the beginning
 fruits.shift()  //deletes the first element from an array
 fruits.pop()    //delete the last element from the array
-console.log(fruits)
+console.log(fruits.length)
 
 
 const myName = "Temitope"
 const fullStatement = `I am ${myName}, and i love ${fruits[1]}`
 
 //console.log(fullStatement)
+
+//OBJECT
+//Object is a collecion of key-value pairs
+
+const person = {
+    name: "Tope",
+    age: 20,
+    isEmployed: true,
+}
+console.log(`His name is ${person.name} and he is ${person.age} years old`)

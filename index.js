@@ -44,7 +44,7 @@ function sumArray(...numbers){
 
 //Global: variable can be accessed through the entire program
 
-let age =28
+//let age =28
 function declareAge(){
     console.log(age)
 }
@@ -97,32 +97,105 @@ function declareName(){
 //ARRAY
 //An array is a collection of items stored in memory location
 
-let fruits = ["oranges","banana","cherry"]
-let myInfo = [21, "22, Qwl NY", "male", true]
+// let fruits = ["oranges","banana","cherry"]
+// let myInfo = [21, "22, Qwl NY", "male", true]
 
-fruits[1] = "mango"
+// fruits[1] = "mango"
 
-fruits.push("apple", "berry", "pineapple")  //add additional items to the array
-//console.log(fruits)
-
-
-fruits.unshift("watermelon")  //adds an element from the beginning
-fruits.shift()  //deletes the first element from an array
-fruits.pop()    //delete the last element from the array
-console.log(fruits.length)
+// fruits.push("apple", "berry", "pineapple")  //add additional items to the array
+// //console.log(fruits)
 
 
-const myName = "Temitope"
-const fullStatement = `I am ${myName}, and i love ${fruits[1]}`
+// fruits.unshift("watermelon")  //adds an element from the beginning
+// fruits.shift()  //deletes the first element from an array
+// fruits.pop()    //delete the last element from the array
+// console.log(fruits.length)
 
-//console.log(fullStatement)
 
-//OBJECT
-//Object is a collecion of key-value pairs
+// const myName = "Temitope"
+// const fullStatement = `I am ${myName}, and i love ${fruits[1]}`
 
-const person = {
-    name: "Tope",
-    age: 20,
-    isEmployed: true,
+// //console.log(fullStatement)
+
+// //OBJECT
+// //Object is a collecion of key-value pairs
+
+// const person = {
+//     name: "Tope",
+//     age: 20,
+//     isEmployed: true,
+// }
+
+// function determineStatus(value){
+//     if(value){
+//         return "Employed"
+//     }else{
+//         return "Unemployed"
+//     }
+// }
+// console.log(`His name is ${person.name} and he is ${person.age} years old. Also he is ${determineStatus{person.isEmployed}}`)
+
+let myVar = "3"
+myVar = 3.579
+//console.log(typeof myVar)
+
+//CONDITIONAL STATEMENTS
+
+//if statement
+//if else statement
+//if-else ladder
+//switch statements
+
+// let age = 18
+
+// if(age >= 18){
+//     console.log("You are old enough to enter this site !!!")
+// }
+// else{
+//     console.log("You must be 18+ to enter this site")
+// }
+
+// let time = 02
+
+// if(time < 12){
+//     console.log("Good morning")
+// }
+// else{
+//     console.log("Good afternoon")
+// }
+
+// let age = 25
+// let hasLicense = true
+
+// if(age >= 16){
+//     console.log("You are old enough to drive")
+
+//     if(hasLicense){
+//         console.log("You have a license")
+//     }
+//     else{
+//         console.log("You do not have your license yet")
+//     }
+// }
+// else{
+//     console.log("You must be 16+ to have a license")
+// }
+
+//LOOP
+
+//for loop
+
+for(i = 0; i < 5; i++){
+    //console.log(i)
 }
-console.log(`His name is ${person.name} and he is ${person.age} years old`)
+
+    //console.log("Happy New Year")
+
+//while loop
+
+let username = ""
+
+while(username === ""){
+    username = window.prompt(`Enter your name`)
+}
+//console.log(`Hello ${username}`)
